@@ -1,0 +1,16 @@
+h1,
+h2,
+h3,
+li,
+a {
+  font-family: sans-serif;
+}
+.indice {
+  list-style: none;
+  border: 5px;
+  border-color: brown;
+  border-style: inset;
+}
+header {
+  background-color: rgb(35, 108, 83);
+}
