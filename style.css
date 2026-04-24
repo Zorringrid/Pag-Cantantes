@@ -76,6 +76,18 @@ body {
   margin-bottom: 10px;
   /* Evita que se deforme en pantallas grandes */
 }
+.background-image-taylor {
+  background-image: url(img/taylorswift.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; /* Hace que la imagen se adapte */
+  margin: 0 auto;
+  padding: 40px 20px;
+  max-width: 1200px;
+  height: 90vh;
+  margin-bottom: 10px;
+  /* Evita que se deforme en pantallas grandes */
+}
 .type-artist {
   color: white;
   font-size: 15px;
