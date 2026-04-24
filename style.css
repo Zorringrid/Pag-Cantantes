@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 * {
   margin: 0;
   padding: 0;
@@ -102,6 +105,7 @@ body {
   text-align: justify;
   margin: 2%;
   margin-left: 4%;
+  scroll-margin-top: 70px;
 }
 .bibliografia_title {
   margin-bottom: 2.5%;
@@ -111,18 +115,36 @@ body {
   margin-bottom: 1.5%;
   font-size: 22px;
 }
-.video-container {
-  justify-content: flex-end;
+
+.video {
   width: 40%;
   margin: 2%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
-.video-container iframe {
-  position: absolute;
-  max-width: 550px;
-  width: 50%;
-  height: 50%;
+
+/* Vídeo grande */
+.video-big iframe {
+  width: 100%;
+  aspect-ratio: 16/9;
   border: none;
 }
+
+/* Contenedor de los dos vídeos pequeños */
+.video-litle {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* dos columnas */
+  gap: 20px;
+}
+
+/* Cada vídeo pequeño */
+.video-mini iframe {
+  width: 100%;
+  aspect-ratio: 16/9;
+  border: none;
+}
+
 .last-footer {
   width: 100%;
   text-align: center;
