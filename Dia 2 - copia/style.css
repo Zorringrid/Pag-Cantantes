@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: black;
+  font-family: sans-serif;
+}
+.top-header {
+  position: fixed;
+  width: 100%;
+  height: 70px;
+  background: rgba(0, 0, 0, 0.4); /* estilo Sony */
+  display: flex;
+  align-items: center;
+  z-index: 1000;
+  justify-content: space-between;
+}
+.logo a {
+  padding-left: 30px;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "BJCree", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+}
+.menu a {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+}
+.menu a:hover {
+  color: #cbbcf6;
+}
+.container {
+  margin: 0 auto;
+}
+
+.header-single {
+  margin: 0 auto;
+}
+.background-image-justin {
+  background-image: url(img/justin\ bieber.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; /* Hace que la imagen se adapte */
+  margin: 0 auto;
+  padding: 40px 20px;
+  max-width: 1200px; /* Evita que se deforme en pantallas grandes */
+}
+.type-artist {
+  color: white;
+  font-size: 15px;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 15%;
+}
+.title {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-size: 70px;
+  text-align: center;
+  color: white;
+  padding-bottom: 10%;
+}
+.social-title {
+  text-align: center;
+  font-size: 13px;
+  color: white;
+  margin-bottom: 10px;
+}
+.social {
+  display: flex;
+  list-style: none;
+  text-align: center;
+  justify-content: center;
+}
+.social a {
+  color: white;
+  font-size: 30px;
+  margin: 0 10px;
+}
+.social a:hover {
+  color: #cbbcf6;
+}
+/*fondo {
+  background: rgb(139, 226, 232);
+}
+.fila {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+}
+.parrafo {
+  border: 5px solid rgb(249, 249, 249);
+  padding: 12px;
+  background-color: rgb(9, 52, 81);
+  border-radius: 12px;
+  color: white;
+  font-size: 25px;
+}
+#tituloc {
+  color: rgb(9, 52, 81);
+  font-size: 70px;
+  text-decoration: underline;
+  text-align: center;
+}
+
+#tituloprincipal {
+  text-align: center;
+  font-size: 75px;
+}
+.card {
+  background-color: #4e2749;
+  width: 300px;
+  padding: 20px;
+  margin: 65px;
+  border-radius: 15px;
+}
+
+.card img {
+  display: flex;
+  margin: 0 auto;
+  border: 5px solid rgb(255, 255, 255);
+  border-radius: 12px;
+}
+
+.card h4 {
+  text-align: center;
+  color: white;
+}
+#fondoprincipal {
+  background: linear-gradient(235deg, #ca7abc, #906cb1);
+}
+#todojunto {
+  display: flex;
+}
+.parrafob {
+  background-color: #4e2749;
+  border: 10px solid white;
+  color: white;
+  padding: 15px;
+  font-size: 25px;
+  text-align: center;
+}
+*/
