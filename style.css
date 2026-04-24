@@ -52,8 +52,21 @@ body {
 .header-single {
   margin: 0 auto;
 }
+.background-image-artist {
+  background-image: url(img/fondoinicio.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; /* Hace que la imagen se adapte */
+  margin: 0 auto;
+  padding: 40px 20px;
+  max-width: 1200px;
+  height: 90vh;
+  margin-bottom: 10px;
+  /* Evita que se deforme en pantallas grandes */
+}
+
 .background-image-justin {
-  background-image: url(img/justin\ bieber.jpg);
+  background-image: url(img/justinbiber.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover; /* Hace que la imagen se adapte */
@@ -103,6 +116,19 @@ body {
   color: white;
   padding-bottom: 8%;
 }
+#pop {
+  margin: 0;
+  padding: 30px;
+}
+
+.artistas {
+  font-family: "BJCree", serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 80px;
+  padding-top: 20vh;
+  text-align: center;
+}
 .social-title {
   text-align: center;
   font-size: 13px;
@@ -123,6 +149,47 @@ body {
 }
 .social a:hover {
   color: #cbbcf6;
+}
+
+.cantantes {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.justin_target {
+  background-color: #cbbcf677;
+  margin: 70px;
+  padding: 50px;
+  border-radius: 15px;
+}
+.justin_target:hover {
+  background-color: #421b9661;
+  border: 3px solid #cbbcf683;
+}
+.justin_target img {
+  max-width: 1200px;
+  height: 30vh;
+  width: 100%;
+  margin-top: 30px;
+  border: 5px solid #cbbcf683;
+  border-radius: 15px;
+}
+
+.justin_target h4 {
+  color: white;
+  font-size: 40px;
+  text-decoration: none;
+  text-align: center;
+}
+#cantantes {
+  scroll-margin-top: 70px;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+#playlist {
+  scroll-margin-top: 70px;
+
+  margin-left: 30px;
 }
 .bio-video {
   display: flex;
@@ -213,65 +280,3 @@ body {
   text-align: center;
   font-size: 10px;
 }
-/*fondo {
-  background: rgb(139, 226, 232);
-}
-.fila {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-  justify-content: center;
-}
-.parrafo {
-  border: 5px solid rgb(249, 249, 249);
-  padding: 12px;
-  background-color: rgb(9, 52, 81);
-  border-radius: 12px;
-  color: white;
-  font-size: 25px;
-}
-#tituloc {
-  color: rgb(9, 52, 81);
-  font-size: 70px;
-  text-decoration: underline;
-  text-align: center;
-}
-
-#tituloprincipal {
-  text-align: center;
-  font-size: 75px;
-}
-.card {
-  background-color: #4e2749;
-  width: 300px;
-  padding: 20px;
-  margin: 65px;
-  border-radius: 15px;
-}
-
-.card img {
-  display: flex;
-  margin: 0 auto;
-  border: 5px solid rgb(255, 255, 255);
-  border-radius: 12px;
-}
-
-.card h4 {
-  text-align: center;
-  color: white;
-}
-#fondoprincipal {
-  background: linear-gradient(235deg, #ca7abc, #906cb1);
-}
-#todojunto {
-  display: flex;
-}
-.parrafob {
-  background-color: #4e2749;
-  border: 10px solid white;
-  color: white;
-  padding: 15px;
-  font-size: 25px;
-  text-align: center;
-}
-*/
