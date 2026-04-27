@@ -219,21 +219,18 @@ body {
   scroll-margin-top: 70px;
 }
 
-/* Vídeo grande */
 .video-big iframe {
   width: 100%;
   aspect-ratio: 16/9;
   border: none;
 }
 
-/* Contenedor de los dos vídeos pequeños */
 .video-litle {
   display: grid;
-  grid-template-columns: 1fr 1fr; /* dos columnas */
+  grid-template-columns: 1fr 1fr;
   gap: 20px;
 }
 
-/* Cada vídeo pequeño */
 .video-mini iframe {
   width: 100%;
   aspect-ratio: 16/9;
