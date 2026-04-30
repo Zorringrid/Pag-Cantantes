@@ -122,7 +122,7 @@ body {
 .title {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
-  font-size: 70px;
+  font-size: clamp(40px, 6vw, 80px);
   text-align: center;
   color: white;
   padding-bottom: 8%;
@@ -136,7 +136,7 @@ body {
   font-family: "BJCree", serif;
   font-weight: 800;
   font-style: normal;
-  font-size: 80px;
+  font-size: clamp(40px, 6vw, 80px);
   padding-top: 20vh;
   text-align: center;
 }
@@ -322,6 +322,9 @@ body {
   /* Quitar el espacio de .right */
   .right {
     display: none;
+  }
+  .cantantes {
+    flex-direction: column;
   }
 
   .bio-video {
