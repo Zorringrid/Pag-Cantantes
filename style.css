@@ -354,4 +354,7 @@ body {
     align-items: center;
     margin: 3%;
   }
+  .menu-footer a {
+    display: block;
+  }
 }
