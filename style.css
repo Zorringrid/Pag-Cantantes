@@ -45,6 +45,17 @@ body {
 .right {
   width: 200px;
 }
+#menu-toggle {
+  display: none;
+}
+
+.hamburger {
+  display: none;
+  font-size: 32px;
+  padding-right: 20px;
+  cursor: pointer;
+  color: white;
+}
 .container {
   margin: 0 auto;
 }
@@ -276,4 +287,74 @@ body {
   padding-top: 15px;
   text-align: center;
   font-size: 10px;
+}
+@media (width <= 768px) {
+  /* Mostrar hamburguesa */
+  .hamburger {
+    display: block;
+  }
+
+  /* Ocultar menú por defecto */
+  .menu {
+    display: none;
+    position: absolute;
+    top: 70px;
+    right: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.524);
+    flex-direction: column;
+    text-align: center;
+    padding: 20px 0;
+    gap: 20px;
+  }
+
+  /* Mostrar menú cuando el checkbox está activado */
+  #menu-toggle:checked + .hamburger + .menu {
+    display: flex;
+  }
+
+  /* Ajustar tamaño del logo en móvil */
+  .logo a {
+    font-size: 22px;
+    padding-left: 15px;
+  }
+
+  /* Quitar el espacio de .right */
+  .right {
+    display: none;
+  }
+
+  .bio-video {
+    flex-direction: column;
+    width: 80vw;
+    margin: 2%;
+    justify-content: center;
+    align-items: center;
+  }
+  .bibliografia {
+    width: 100%;
+  }
+
+  .bibliografia_p {
+    margin-top: 15%;
+    margin: 5%;
+    width: 100%;
+  }
+  .video {
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+  }
+  .video-litle {
+    align-items: center;
+    justify-content: center;
+    margin: 5%;
+  }
+  .playlist {
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 3%;
+  }
 }
