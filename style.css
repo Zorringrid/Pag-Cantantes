@@ -165,30 +165,57 @@ body {
 .cantantes {
   display: flex;
   width: 100%;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .justin_target {
   background-color: #cbbcf677;
-  margin: 70px;
-  padding: 50px;
+  height: 70vh;
+  width: 20vw;
+  margin: 20px;
+  padding: 30px;
   border-radius: 15px;
 }
 .justin_target:hover {
   background-color: #421b9661;
   border: 3px solid #cbbcf683;
 }
-.justin_target img {
-  max-width: 1200px;
-  height: 30vh;
+.img_justin {
+  background-image: url(img/justin.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   width: 100%;
-  margin-top: 30px;
-  border: 5px solid #cbbcf683;
+  height: 40vh;
+  border-color: 5px solid #cbbcf683;
   border-radius: 15px;
+  margin-bottom: 5%;
+}
+.img_miley {
+  background-image: url(img/mileyicono.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 40vh;
+  border-image: 5px solid #cbbcf683;
+  border-radius: 15px;
+  margin-bottom: 5%;
+}
+.img_taylor {
+  background-image: url(img/tyloricono.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 40vh;
+  border-color: 5px solid #cbbcf683;
+  border-radius: 15px;
+  margin-bottom: 5%;
 }
 
 .justin_target h4 {
   color: white;
-  font-size: 40px;
+  font-size: clamp(20px, 6vw, 40px);
   text-decoration: none;
   text-align: center;
 }
@@ -326,7 +353,18 @@ body {
   .cantantes {
     flex-direction: column;
   }
-
+  .justin_target {
+    box-sizing: border-box;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 10%;
+    width: 90%;
+    height: 100%;
+    border-radius: 15px;
+  }
+  #playlist {
+    margin: 10%;
+  }
   .bio-video {
     flex-direction: column;
     margin: 2%;
